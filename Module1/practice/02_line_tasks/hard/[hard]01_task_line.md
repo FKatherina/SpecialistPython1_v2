@@ -20,7 +20,11 @@
 ```python
 # TODO: you code here...
 ```
+days = (h - b)//(a - b)
+rest = (h - b)%(a - b)
+if rest > 0 : days = days + 1
 
+print("Количество дней: ", days)
 ---
 
 ### Данные для самопроверки
