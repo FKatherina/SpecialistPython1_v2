@@ -20,7 +20,8 @@
 seconds = int(input("Прошло секунд: "))
 # TODO: you code here...
 ```
-
+seconds = int(input("Прошло секунд: "))
+print(seconds//86400, " дней", (seconds//3600)%24 ," часов", (seconds//60)%60 ,"минут", seconds%60 ,"секунд ")
 ---
 
 ### Данные для самопроверки
