@@ -22,7 +22,14 @@
 ```python
 # TODO: you code here...
 ```
+n = int(input("Количество уровлней в пирамиде: "))
+count = n
 
+while count>=0:
+    sum = sum + count*count
+    count -= 1
+
+print(sum)
 ---
 
 ### Данные для самопроверки
