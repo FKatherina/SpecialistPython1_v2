@@ -17,7 +17,12 @@
 ```python
 # TODO: you code here...
 ```
+a = int(input("Число а"))
 
+if (a%10)==5:
+    print("Да")
+else:
+    print("Нет")
 ---
 
 ### Данные для самопроверки
