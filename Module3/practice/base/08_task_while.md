@@ -18,7 +18,19 @@
 ```python
 # TODO: you code here...
 ```
+n = int(input("все делители заданного числа n: "))
+s = ""
+count = 2
 
+while count < n:
+    if n%count == 0:
+        s = s + str(count) + " "
+    count += 1
+
+if s=="":
+    print("Число простое")
+else:
+    print(s)
 ---
 
 ### Данные для самопроверки
