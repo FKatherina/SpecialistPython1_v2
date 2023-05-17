@@ -21,7 +21,8 @@ name = input("Имя: ")
 surname = input("Фамилия: ")
 # TODO: you code here...
 ```
-
+print("name.title() -->", name.title())
+print("surname.upper() -->", surname.title())
 ---
 
 <details>
